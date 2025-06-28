@@ -63,10 +63,12 @@ const Contact = () => {
       <div className="flex items-center px-4">
         {/* Description */}
         <div className="w-full space-y-4 font-bold">
-          <h1 className="text-xl md:text-5xl font-bold mb-8">Get in Touch</h1>
+          <h1 className="text-xl md:text-5xl font-bold mb-8">
+            Let’s Get in Touch
+          </h1>
           <div className="flex items-center  gap-1">
             <IoHome size={35} />
-            <p className="text-xl">Shamakhdum, Rajshahi</p>
+            <p className="text-xl"> Rajshahi, Bangladesh</p>
           </div>
           <div className="flex items-center gap-1">
             <FaPhoneSquare size={35} />
@@ -104,6 +106,9 @@ const Contact = () => {
         <div className=" w-full border-secondary">
           <Section>
             <div className="px-6 py-6 bg-secondary rounded-sm">
+              <h1 className="text-primary text-4xl font-bold mb-4">
+                Fill the Form to Connect
+              </h1>
               <form ref={form} onSubmit={handleSubmit} className="fieldset">
                 <label className="text-white">Your Name</label>
                 <input
