@@ -13,7 +13,7 @@ import { MdWavingHand } from "react-icons/md";
 const Banner = () => {
   return (
     <div id="home" className="bg-secondary">
-      <div className="pt-30 pb-13 flex items-center justify-between gap-4  max-w-[1500px] mx-auto px-4">
+      <div className="pt-30 pb-13 mb-30 flex items-center flex-col-reverse md:flex-row justify-between gap-4  max-w-[1500px] mx-auto px-4">
         <div>
           <div className="flex">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mr-3 mb-10">
@@ -24,11 +24,11 @@ const Banner = () => {
           <h1 className="text-white mb-2 text-2xl md:text-4xl lg:text-6xl font-bold">
             I'm Mizanur Rahman
           </h1>
-          <p className="text-[#c4c4c4] text-base md:text-2xl lg:text-3xl">
+          <p className="text-[#c4c4c4] text-lg md:text-2xl lg:text-3xl">
             A passionate Junior MERN Stack Developer.
           </p>
           {/* Social Icons */}
-          <div className="flex gap-3 text-2xl md:text-4xl mb-8 mt-14 text-white">
+          <div className="flex gap-3 text-4xl mb-8 mt-10 md:mt-14 text-white">
             <a className="hover:text-primary" href="https://www.linkedin.com/">
               <FaLinkedin />
             </a>
@@ -43,21 +43,27 @@ const Banner = () => {
           </div>
           {/* Button */}
           <div className="flex gap-3">
-            <button className="bg-primary px-4 py-2 rounded-xs hover:bg-[#4c8626] cursor-pointer flex items-center gap-1 font-bold">
+            <a
+              href="https://drive.google.com/file/d/1s6EHYZ3fd_TxM4-kHQNQAZPTYbwIB_nJ/view?usp=drivesdk"
+              target="blank"
+              className="bg-primary px-4 py-2 rounded-xs hover:bg-[#4c8626] cursor-pointer flex items-center gap-1 font-bold"
+            >
               <FaCloudDownloadAlt size={18} />
               RESUME
-            </button>
-            <button className="bg-white px-4 py-2 rounded-xs hover:bg-primary cursor-pointer flex items-center gap-1 font-bold">
-              <FaPhoneAlt size={18} />
-              Contact
-            </button>
+            </a>
+            <a
+              href="#contact"
+              className="bg-white px-4 py-2 rounded-xs hover:bg-primary cursor-pointer font-bold"
+            >
+              Say Hello
+            </a>
           </div>
         </div>
 
         {/* Right section */}
-        <div className="ring-1 rounded-full ring-white ring-offset-1 p-1">
+        <div className="rounded-full ring-1 ring-white p-1 mb-20 md:mb-0">
           <img
-            className="rounded-full w-50 md:w-80 lg:w-100"
+            className=" w-60 md:w-80  rounded-full lg:w-100"
             src="/assets/Banner.jpg"
             alt=""
           />

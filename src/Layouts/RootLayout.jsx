@@ -15,7 +15,7 @@ const RootLayout = () => {
         <Navbar></Navbar>
         <Banner></Banner>
       </header>
-      <main className="max-w-[1200px] mx-auto px-4">
+      <main className="max-w-[1500px] mx-auto px-4">
         <About></About>
         <Education></Education>
         <Skills></Skills>

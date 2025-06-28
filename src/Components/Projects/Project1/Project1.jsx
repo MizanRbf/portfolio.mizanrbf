@@ -5,14 +5,14 @@ import TechBadges from "../TechBadges";
 const Project1 = () => {
   return (
     <div className="shadow-lg border border-gray-100 p-4 rounded-sm">
-      <div className="flex flex-col md:flex-row md:gap-6">
+      <div className="flex flex-col lg:flex-row gap-6 items-center">
         {/* Slider */}
-        <div className="w-full h-full">
+        <div className="w-full">
           <Slider1></Slider1>
         </div>
         <div className="w-full text-left">
           {/* Title */}
-          <h1 className="text-xl md:text-2xl lg:text-4xl font-bold mb-2 text-primary">
+          <h1 className="text-2xl lg:text-4xl font-bold mb-2 text-primary">
             Skilnado
           </h1>
           {/* Description */}
@@ -37,13 +37,13 @@ const Project1 = () => {
 
           {/* Button */}
           <div className="flex gap-3">
-            <button className="bg-secondary px-8 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300 text-primary">
+            <button className="bg-secondary px-4 md:px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300 text-primary">
               Live
             </button>
-            <button className=" px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300 text-primary bg-secondary">
+            <button className=" px-4 md:px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300 text-primary bg-secondary">
               GitHub
             </button>
-            <button className="text-primary bg-secondary px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300">
+            <button className="text-primary bg-secondary px-4 md:px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300">
               Details
             </button>
           </div>

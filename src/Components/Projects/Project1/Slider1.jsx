@@ -8,18 +8,18 @@ import bannerImg3 from "../../../../public/assets/banner3.jpg";
 
 const Slider1 = () => {
   return (
-    <div className="">
+    <div className="h-full">
       <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false}>
         {/* Slider-1 */}
         <div className="h-full">
           <img className="h-full" src={bannerImg1} />
         </div>
         {/* Slider-2 */}
-        <div>
+        <div className="h-full">
           <img className="h-full" src={bannerImg2} />
         </div>
         {/* Slider-3 */}
-        <div>
+        <div className="h-full">
           <img className="h-full" src={bannerImg3} />
         </div>
       </Carousel>

@@ -18,7 +18,7 @@ const Section = ({ children }) => (
     initial={{ opacity: 0, x: 20 }}
     whileInView={{ opacity: 1, x: 0 }}
     transition={{ duration: 0.6, ease: "easeOut" }}
-    viewport={{ once: true, amount: 0.3 }}
+    viewport={{ once: false, amount: 0.3 }}
   >
     {children}
   </motion.div>
@@ -54,16 +54,16 @@ const Contact = () => {
   return (
     <div id="contact" className=" mb-20 z-0">
       {/* Title */}
-      <div className="text-center mt-22 md:mt-14 px-4 md:px-0 mb-20">
+      <div className="text-center  mb-20">
         <h1 className="text-2xl md:text-4xl font-bold mb-3">
-          <TitleBar title="Contact Me" />
+          <TitleBar title="📬Contact Me" />
         </h1>
       </div>
       {/* Contact */}
-      <div className="flex items-center px-4">
+      <div className="flex items-center flex-col md:flex-row">
         {/* Description */}
         <div className="w-full space-y-4 font-bold">
-          <h1 className="text-xl md:text-5xl font-bold mb-8">
+          <h1 className="text-3xl md:text-5xl font-bold mb-8">
             Let’s Get in Touch
           </h1>
           <div className="flex items-center  gap-1">
@@ -84,7 +84,7 @@ const Contact = () => {
           </div>
 
           {/* Social Icons */}
-          <div className="flex gap-3 text-2xl md:text-6xl mb-8 mt-14 text-black">
+          <div className="flex gap-3 text-4xl md:text-6xl mb-8 mt-14 text-black">
             <a className="hover:text-primary" href="https://www.linkedin.com/">
               <FaLinkedin />
             </a>

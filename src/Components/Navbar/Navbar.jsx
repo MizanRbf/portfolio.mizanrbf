@@ -50,26 +50,34 @@ const Navbar = () => {
           }`}
         >
           <ul className="flex gap-4">
-            <li>
+            <li className="hover:text-primary">
               <a href="#home">Home</a>
             </li>
-            <li>
+            <li className="hover:text-primary">
               <a href="#about">About</a>
             </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
+            <li className="hover:text-primary">
               <a href="#education">Education</a>
             </li>
-            <li>
+
+            <li className="hover:text-primary">
+              <a href="#skills">Skills</a>
+            </li>
+            <li className="hover:text-primary">
+              <a href="#projects">Projects</a>
+            </li>
+            <li className="hover:text-primary">
               <a href="#contact">Contact Me</a>
             </li>
           </ul>
-          <button className="bg-primary px-4 py-1 rounded-xs hover:bg-[#4c8626] cursor-pointer flex items-center gap-1">
+          <a
+            href="https://drive.google.com/file/d/1s6EHYZ3fd_TxM4-kHQNQAZPTYbwIB_nJ/view?usp=drivesdk"
+            target="blank"
+            className="bg-primary px-4 py-2 rounded-xs hover:bg-[#4c8626] cursor-pointer flex items-center gap-1"
+          >
             Resume
             <FaDownload size={14} />
-          </button>
+          </a>
         </div>
 
         {/* Responsive Icon */}
