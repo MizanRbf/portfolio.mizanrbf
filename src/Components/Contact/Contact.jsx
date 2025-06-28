@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { TitleBar } from "../../Shared/TitleBar";
 import { IoHome } from "react-icons/io5";
 import {
@@ -9,24 +9,52 @@ import {
 } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
-// import { motion } from "motion/react";
+import Swal from "sweetalert2";
+import emailjs from "emailjs-com";
+import { motion } from "motion/react";
 
-// const Section = ({ children }) => (
-//   <motion.div
-//     initial={{ opacity: 0, x: 20 }}
-//     whileInView={{ opacity: 1, x: 0 }}
-//     transition={{ duration: 0.6, ease: "easeOut" }}
-//     viewport={{ once: true, amount: 0.3 }}
-//   >
-//     {children}
-//   </motion.div>
-// );
+const Section = ({ children }) => (
+  <motion.div
+    initial={{ opacity: 0, x: 20 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.6, ease: "easeOut" }}
+    viewport={{ once: true, amount: 0.3 }}
+  >
+    {children}
+  </motion.div>
+);
 
 const Contact = () => {
+  const form = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_1tl7k8c",
+        "template_88eueta",
+        form.current,
+        "eE11Jr1RKLDjHi_0W"
+      )
+      .then(
+        () => {
+          Swal.fire({
+            title: "Message Sent Successfully!",
+            icon: "success",
+            draggable: true,
+          });
+          form.current.reset();
+        },
+        (error) => {
+          alert("Failed to send. Error: " + error.text);
+        }
+      );
+  };
   return (
     <div id="contact" className=" mb-20 z-0">
       {/* Title */}
-      <div className="text-center mt-22 md:mt-14 px-4 md:px-0 mb-10">
+      <div className="text-center mt-22 md:mt-14 px-4 md:px-0 mb-20">
         <h1 className="text-2xl md:text-4xl font-bold mb-3">
           <TitleBar title="Contact Me" />
         </h1>
@@ -73,34 +101,42 @@ const Contact = () => {
         </div>
         {/* Form */}
 
-        <div className=" border rounded-sm w-full border-secondary">
-          <div className="px-6 py-6 bg-secondary ">
-            <fieldset className="fieldset">
-              <label className="text-white">Your Name</label>
-              <input
-                type="text"
-                className="border border-white rounded-xs py-3 pl-2 w-full bg-white"
-                placeholder="Name..."
-              />
-              <label className="text-white">Your Email</label>
-              <input
-                type="email"
-                className="border border-secondary rounded-xs py-3 pl-2 w-full bg-white"
-                placeholder="Email..."
-              />
-              <label className="text-white"> Message</label>
-              <textarea
-                rows={5}
-                type="text"
-                className="border border-secondary rounded-xs w-full pl-2 bg-white"
-                placeholder="Text Here"
-              />
+        <div className=" w-full border-secondary">
+          <Section>
+            <div className="px-6 py-6 bg-secondary rounded-sm">
+              <form ref={form} onSubmit={handleSubmit} className="fieldset">
+                <label className="text-white">Your Name</label>
+                <input
+                  type="text"
+                  name="user_name"
+                  className="border border-white rounded-xs py-3 pl-2 w-full bg-white"
+                  placeholder="Name..."
+                />
+                <label className="text-white">Your Email</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  className="border border-secondary rounded-xs py-3 pl-2 w-full bg-white"
+                  placeholder="Email..."
+                />
+                <label className="text-white"> Message</label>
+                <textarea
+                  rows={5}
+                  type="text"
+                  name="user_message"
+                  className="border border-secondary rounded-xs w-full pl-2 bg-white"
+                  placeholder="Text Here"
+                />
 
-              <button className="bg-primary text-white text-lg rounded-xs py-1 shadow-xl mt-4">
-                Send
-              </button>
-            </fieldset>
-          </div>
+                <button
+                  type="submit"
+                  className="bg-primary text-white text-lg rounded-xs py-1 shadow-xl mt-4"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+          </Section>
         </div>
       </div>
     </div>
