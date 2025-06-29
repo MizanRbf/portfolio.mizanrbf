@@ -100,52 +100,58 @@ const Navbar = () => {
         >
           <ul className="px-10 *:hover:bg-white *:hover:text-black  *:hover:duration-300 space-y-2">
             <li>
-              <button
+              <a
+                href="#home"
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
                 Home
-              </button>
+              </a>
             </li>
             <li>
-              <button
+              <a
+                href="#about"
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
                 About
-              </button>
+              </a>
             </li>
             <li>
-              <button
+              <a
+                href="#skills"
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
                 Skills
-              </button>
+              </a>
             </li>
             <li>
-              <button
+              <a
+                href="#education"
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
                 Education
-              </button>
+              </a>
             </li>
             <li>
-              <button
+              <a
+                href="#projects"
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
                 Projects
-              </button>
+              </a>
             </li>
             <li>
-              <button
+              <a
+                href="#contact"
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
                 Contact Me
-              </button>
+              </a>
             </li>
           </ul>
         </nav>
