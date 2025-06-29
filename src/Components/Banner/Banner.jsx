@@ -61,10 +61,10 @@ const Banner = () => {
         </div>
 
         {/* Right section */}
-        <div className="rounded-full ring-1 ring-white p-1 mb-20 md:mb-0">
+        <div className="p-1 mb-20 md:mb-0">
           <img
-            className=" w-60 md:w-80  rounded-full lg:w-100"
-            src="/assets/Banner.jpg"
+            className=" w-80 md:w-80   lg:w-100"
+            src="/assets/mizan.png"
             alt=""
           />
         </div>

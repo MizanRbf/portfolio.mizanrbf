@@ -17,16 +17,18 @@ const Project1 = () => {
           </h1>
           {/* Description */}
           <h3 className="text-sm mb-2">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
-            facere esse magni quaerat earum omnis tempor
+            A dynamic task marketplace platform that connects clients and
+            freelancers. Users can post skill-based tasks, bid for jobs, manage
+            submissions, and collaborate in a secure and interactive
+            environment.
           </h3>
           {/* Key Features */}
           <div className="mb-2">
             <h2 className="font-bold underline mb-1">Key Features :</h2>
             <ul className="text-xs md:text-sm">
-              <li>key features 1</li>
-              <li>key features 2</li>
-              <li>key features 3</li>
+              <li>✔️Task management in all way</li>
+              <li>✔️Freelancer showcase</li>
+              <li>✔️Performance Overview at a Glance</li>
             </ul>
           </div>
           {/* Tech Stacks */}
@@ -37,15 +39,27 @@ const Project1 = () => {
 
           {/* Button */}
           <div className="flex gap-3">
-            <button className="bg-secondary px-4 md:px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300 text-primary">
+            <a
+              href="https://skilnado.web.app"
+              target="blank"
+              className="bg-secondary px-4 md:px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300 text-primary"
+            >
               Live
-            </button>
-            <button className=" px-4 md:px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300 text-primary bg-secondary">
+            </a>
+            <a
+              href="https://github.com/MizanRbf/skilnado-client"
+              target="blank"
+              className=" px-4 md:px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300 text-primary bg-secondary"
+            >
               GitHub
-            </button>
-            <button className="text-primary bg-secondary px-4 md:px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300">
+            </a>
+            <a
+              href=""
+              target="blank"
+              className="text-primary bg-secondary px-4 md:px-6 py-2 rounded-xs hover:bg-[#4c8626] hover:text-white cursor-pointer flex items-center gap-1 font-bold transform transition-all ease-in-out duration-300"
+            >
               Details
-            </button>
+            </a>
           </div>
         </div>
       </div>

@@ -29,7 +29,6 @@ const techs = [
   { name: "ExpressJS", icon: <SiExpress className="text-gray-700" /> },
   { name: "GitHub", icon: <FaGithub className="text-black" /> },
   { name: "Vercel", icon: <SiVercel className="text-black" /> },
-  { name: "Netlify", icon: <SiNetlify className="text-blue-500" /> },
 ];
 
 const TechBadges = () => {

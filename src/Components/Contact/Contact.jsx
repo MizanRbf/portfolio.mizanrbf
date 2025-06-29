@@ -60,7 +60,7 @@ const Contact = () => {
         </h1>
       </div>
       {/* Contact */}
-      <div className="flex items-center flex-col md:flex-row">
+      <div className="flex items-center flex-col md:flex-row px-2 md:px-6">
         {/* Description */}
         <div className="w-full space-y-4 font-bold">
           <h1 className="text-3xl md:text-5xl font-bold mb-8">

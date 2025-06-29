@@ -25,7 +25,7 @@ const Project = () => {
         </h1>
         {/* Projects Field */}
 
-        <div className="space-y-6">
+        <div className="space-y-6 px-2 md:px-6">
           {/* Project-1 */}
           <Section>
             <Project1></Project1>

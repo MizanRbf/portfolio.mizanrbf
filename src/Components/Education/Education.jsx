@@ -8,7 +8,9 @@ const Education = () => {
       <div className="text-center mb-30">
         <h1 className="text-2xl md:text-4xl font-bold mb-3">
           <TitleBar title="🎓 Education and Courses" />
-          <EducationComponent></EducationComponent>
+          <div className="px-2 md:px-6">
+            <EducationComponent></EducationComponent>
+          </div>
         </h1>
       </div>
     </div>

@@ -45,11 +45,11 @@ const Navbar = () => {
 
         {/* Menubar for Large Device */}
         <div
-          className={`space-x-4  md:flex *:px-3 transition-all duration-500 ease-in-out font-bold hidden items-center  ${
+          className={`md:flex *:px-3 gap-4 transition-all duration-500 ease-in-out font-bold hidden items-center  ${
             isScrolled ? "text-black" : "text-white"
           }`}
         >
-          <ul className="flex gap-4">
+          <ul className="flex gap-8">
             <li className="hover:text-primary">
               <a href="#home">Home</a>
             </li>

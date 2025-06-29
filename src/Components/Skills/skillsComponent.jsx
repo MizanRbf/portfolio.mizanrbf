@@ -41,7 +41,7 @@ const SkillSection = ({ title, items }) => (
 
 const SkillsComponent = () => {
   return (
-    <section id="skills" className=" text-black py-12 px-6 md:px-20">
+    <section id="skills" className=" text-black py-12 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div>
           <SkillSection

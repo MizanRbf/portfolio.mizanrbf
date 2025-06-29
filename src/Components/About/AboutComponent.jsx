@@ -1,7 +1,7 @@
 const AboutComponent = () => {
   return (
-    <section id="about" className="py-12 px-6 md:px-16 text-black">
-      <div className="max-w-4xl mx-auto text-center space-y-5 text-lg leading-relaxed">
+    <section id="about" className="  text-black">
+      <div className="max-w-4xl mx-auto md:pl-4 text-justify space-y-5 text-sm lg:text-base leading-relaxed">
         <p>
           Hi! I’m{" "}
           <span className="font-semibold text-primary">Mizanur Rahman</span>, a

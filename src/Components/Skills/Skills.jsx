@@ -10,7 +10,7 @@ const Skills = () => {
           <TitleBar title="🛠 My Skills" />
         </h1>
         {/* Skills */}
-        <div>
+        <div className="px-2 md:px-6">
           <SkillsComponent></SkillsComponent>
         </div>
       </div>
