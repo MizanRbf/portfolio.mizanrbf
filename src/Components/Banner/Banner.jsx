@@ -21,30 +21,39 @@ const Banner = () => {
             </h2>
             <MdWavingHand size={30} className="text-primary" />
           </div>
-          <h1 className="text-white mb-2 text-2xl md:text-4xl lg:text-6xl font-bold">
+          <h1 className="text-white mb-2 text-3xl md:text-4xl lg:text-6xl font-bold">
             I'm Mizanur Rahman
           </h1>
-          <p className="text-[#c4c4c4] text-lg md:text-2xl lg:text-3xl">
-            A passionate Junior MERN Stack Developer.
+          <p className="text-[#c4c4c4] text-sm md:text-2xl lg:text-3xl font-bold mt-8">
+            A passionate Junior MERN Stack Developer
+          </p>
+          <p className="bg-white text-secondary text-[10px] md:text-sm font-medium px-2 rounded-full inline-block text-shadow-lg">
+            who loves building fast, responsive, and scalable web applications
           </p>
           {/* Social Icons */}
           <div className="flex gap-3 text-4xl mb-8 mt-10 md:mt-14 text-white">
-            <a className="hover:text-primary" href="https://www.linkedin.com/">
-              <FaLinkedin />
-            </a>
-
-            <a className="hover:text-primary" href="https://www.linkedin.com/">
+            <a
+              className="hover:text-primary"
+              href="https://github.com/MizanRbf"
+            >
               <FaGithub />
             </a>
 
-            <a className="hover:text-primary" href="https://x.com/">
+            <a
+              className="hover:text-primary"
+              href="https://www.linkedin.com/in/mizanrbf/"
+            >
+              <FaLinkedin />
+            </a>
+
+            <a className="hover:text-primary" href="https://x.com/MizanRbf/">
               <FaXTwitter />
             </a>
           </div>
           {/* Button */}
           <div className="flex gap-3">
             <a
-              href="https://drive.google.com/file/d/1s6EHYZ3fd_TxM4-kHQNQAZPTYbwIB_nJ/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1CBwCfoaCvnUuC11G_esJVAd2uXrA9p2X/view?usp=sharing"
               target="blank"
               className="bg-primary px-4 py-2 rounded-xs hover:bg-[#4c8626] cursor-pointer flex items-center gap-1 font-bold"
             >
@@ -61,7 +70,7 @@ const Banner = () => {
         </div>
 
         {/* Right section */}
-        <div className="p-1 mb-20 md:mb-0">
+        <div className="p-1">
           <img
             className=" w-80 md:w-80   lg:w-100"
             src="/assets/mizan.png"

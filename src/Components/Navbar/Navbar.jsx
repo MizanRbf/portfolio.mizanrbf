@@ -45,7 +45,7 @@ const Navbar = () => {
 
         {/* Menubar for Large Device */}
         <div
-          className={`md:flex *:px-3 gap-4 transition-all duration-500 ease-in-out font-bold hidden items-center  ${
+          className={`lg:flex *:px-3 gap-4 transition-all duration-500 ease-in-out font-bold hidden items-center  ${
             isScrolled ? "text-black" : "text-white"
           }`}
         >
@@ -71,7 +71,7 @@ const Navbar = () => {
             </li>
           </ul>
           <a
-            href="https://drive.google.com/file/d/1s6EHYZ3fd_TxM4-kHQNQAZPTYbwIB_nJ/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1CBwCfoaCvnUuC11G_esJVAd2uXrA9p2X/view?usp=sharing"
             target="blank"
             className="bg-primary px-4 py-2 rounded-xs hover:bg-[#4c8626] cursor-pointer flex items-center gap-1"
           >
@@ -81,7 +81,7 @@ const Navbar = () => {
         </div>
 
         {/* Responsive Icon */}
-        <div className="py-1 px-3 rounded-sm md:hidden bg-slate-200 shadow-2xl">
+        <div className="py-1 px-3 rounded-sm lg:hidden bg-slate-200 shadow-2xl">
           <span onClick={() => setOpen(!open)}>
             {open ? (
               <RxCross2 className="cursor-pointer   text-2xl" />
@@ -92,7 +92,7 @@ const Navbar = () => {
         </div>
         {/* Menubar for Small Device */}
         <nav
-          className={`top-18 md:hidden right-0 left-0 absolute py-6 shadow bg-[rgba(0,0,0,0.81)]  text-lg font-bold text-white transform transition-all ease-in-out duration-300 z-50 ${
+          className={`top-18 lg:hidden right-0 left-0 absolute py-6 shadow bg-[rgba(0,0,0,0.81)]  text-lg font-bold text-white transform transition-all ease-in-out duration-300 z-50 ${
             open
               ? "opacity-100 translate-y-2 visible"
               : "opacity-0 -translate-y-5 invisible"
@@ -105,7 +105,7 @@ const Navbar = () => {
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
-                Home
+                <button className="w-full text-left">Home</button>
               </a>
             </li>
             <li>
@@ -114,7 +114,7 @@ const Navbar = () => {
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
-                About
+                <button className="w-full text-left">About</button>
               </a>
             </li>
             <li>
@@ -123,7 +123,7 @@ const Navbar = () => {
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
-                Skills
+                <button className="w-full text-left">Skills</button>
               </a>
             </li>
             <li>
@@ -132,7 +132,7 @@ const Navbar = () => {
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
-                Education
+                <button className="w-full text-left">Education</button>
               </a>
             </li>
             <li>
@@ -141,7 +141,7 @@ const Navbar = () => {
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
-                Projects
+                <button className="w-full text-left">Projects</button>
               </a>
             </li>
             <li>
@@ -150,7 +150,7 @@ const Navbar = () => {
                 className="w-full text-left cursor-pointer"
                 onClick={() => setOpen(false)}
               >
-                Contact Me
+                <button className="w-full text-left">Contact Me</button>
               </a>
             </li>
           </ul>

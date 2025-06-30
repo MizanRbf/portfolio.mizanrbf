@@ -77,7 +77,6 @@ const SkillsComponent = () => {
             title="Design Tools"
             items={[
               { name: "Figma", icon: <FaFigma className="text-pink-500" /> },
-              { name: "Framer", icon: <SiFramer className="text-white" /> },
             ]}
           />
         </div>
@@ -105,10 +104,6 @@ const SkillsComponent = () => {
                 name: "ExpressJS",
                 icon: <SiExpress className="text-gray-200" />,
               },
-              {
-                name: "API",
-                icon: <BsFillFileEarmarkCodeFill className="text-teal-400" />,
-              },
             ]}
           />
 
@@ -120,10 +115,7 @@ const SkillsComponent = () => {
                 name: "Firebase",
                 icon: <SiFirebase className="text-yellow-400" />,
               },
-              {
-                name: "GitHub Pages",
-                icon: <SiGithubpages className="text-white" />,
-              },
+
               {
                 name: "Netlify",
                 icon: <SiNetlify className="text-cyan-500" />,

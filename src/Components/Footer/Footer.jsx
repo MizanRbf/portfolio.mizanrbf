@@ -18,19 +18,22 @@ const Footer = () => {
         </div>
         {/* Social Icons */}
         <div className="flex gap-3 text-2xl md:text-4xl justify-center">
-          <a className="hover:text-primary" href="https://www.linkedin.com/">
-            <FaLinkedin />
-          </a>
-
-          <a className="hover:text-primary" href="https://www.linkedin.com/">
+          <a className="hover:text-primary" href="https://github.com/MizanRbf">
             <FaGithub />
           </a>
 
-          <a className="hover:text-primary" href="https://x.com/">
+          <a
+            className="hover:text-primary"
+            href="https://www.linkedin.com/in/mizanrbf/"
+          >
+            <FaLinkedin />
+          </a>
+
+          <a className="hover:text-primary" href="https://x.com/MizanRbf/">
             <FaXTwitter />
           </a>
 
-          <a className="hover:text-primary" href="https://www.whatsapp.com/">
+          <a className="hover:text-primary" href="https://wa.me/8801609583916">
             <FaWhatsappSquare />
           </a>
         </div>

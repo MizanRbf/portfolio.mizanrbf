@@ -1,40 +1,24 @@
 const AboutComponent = () => {
   return (
-    <section id="about" className="  text-black">
+    <section className="  text-black">
       <div className="max-w-4xl mx-auto md:pl-4 text-justify space-y-5 text-sm lg:text-base leading-relaxed">
-        <p>
-          Hi! I’m{" "}
-          <span className="font-semibold text-primary">Mizanur Rahman</span>, a
-          dedicated student of <strong>Arabic Language and Literature</strong>{" "}
-          at the University of Rajshahi, and an enthusiastic{" "}
-          <strong>web developer</strong> with a strong focus on the{" "}
-          <strong>MERN Stack</strong> — MongoDB, Express.js, React.js, and
-          Node.js.
+        <p className="text-base leading-relaxed mb-4">
+          I'm <span className="font-semibold text-primary">Mizanur Rahman</span>
+          , a Junior MERN Stack Developer and a student of Arabic Language and
+          Literature at the University of Rajshahi. My programming journey began
+          when I realized I was wasting time and wanted to build skills for the
+          future. A friend who started coding years before me inspired me to
+          begin.
         </p>
-
-        <p>
-          Currently, I’m enrolled in the{" "}
-          <strong>Web Development program at Programming Hero</strong>, where
-          I’ve built several real-world projects such as{" "}
-          <em>task management systems</em>,{" "}
-          <em>subscription-based service platforms</em>, and{" "}
-          <em>freelance job marketplaces</em>. My development stack includes
-          building <strong>responsive</strong> and{" "}
-          <strong>user-friendly</strong> interfaces using{" "}
-          <strong>TailwindCSS</strong>, <strong>Firebase</strong>, and modern UI
-          tools.
+        <p className="text-base leading-relaxed mb-4">
+          I specialize in React, Node.js, Express.js, and MongoDB. I enjoy
+          building clean, responsive, and secure web apps using modern tools
+          like Tailwind CSS and Firebase.
         </p>
-
-        <p>
-          My career goal is to become a <strong>full-stack developer</strong>{" "}
-          and contribute to dynamic <strong>remote teams</strong> across the
-          globe.
-        </p>
-
-        <p>
-          Beyond coding, I enjoy <strong>Arabic calligraphy</strong>, exploring{" "}
-          <strong>emerging technologies</strong>, and staying updated with the
-          latest trends in development.
+        <p className="text-base leading-relaxed">
+          In my free time, I enjoy reading international magazines and exploring
+          global trends. I'm always open to learning and growing through
+          real-world projects and teamwork.
         </p>
       </div>
     </section>
