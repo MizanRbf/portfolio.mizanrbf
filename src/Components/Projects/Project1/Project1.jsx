@@ -19,10 +19,12 @@ const Project1 = () => {
     <Section>
       <div className="shadow-lg border border-gray-100 p-4 rounded-sm">
         <div>
-          {/* Slider */}
+          {/* Left Section */}
           <div className="w-full mb-3">
             <Slider1></Slider1>
           </div>
+
+          {/* Right Section */}
           <div className="w-full text-left">
             {/* Title */}
             <h1 className="text-2xl lg:text-4xl font-bold mb-3 text-primary">
