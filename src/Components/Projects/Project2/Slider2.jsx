@@ -9,7 +9,7 @@ import ProSlider4 from "../../../../public/assets/Pro2,Slid4.png";
 
 const Slider2 = () => {
   return (
-    <div className="h-full">
+    <div className="md:h-[150px] lg:h-[250px] overflow-hidden">
       <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false}>
         {/* Slider-1 */}
         <div className="h-full">

@@ -13,9 +13,19 @@ import Swal from "sweetalert2";
 import emailjs from "emailjs-com";
 import { motion } from "motion/react";
 
-const Section = ({ children }) => (
+const Section1 = ({ children }) => (
   <motion.div
     initial={{ opacity: 0, x: 20 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.6, ease: "easeOut" }}
+    viewport={{ once: false, amount: 0.3 }}
+  >
+    {children}
+  </motion.div>
+);
+const Section2 = ({ children }) => (
+  <motion.div
+    initial={{ opacity: 0, x: -20 }}
     whileInView={{ opacity: 1, x: 0 }}
     transition={{ duration: 0.6, ease: "easeOut" }}
     viewport={{ once: false, amount: 0.3 }}
@@ -62,58 +72,61 @@ const Contact = () => {
       {/* Contact */}
       <div className="flex items-center flex-col md:flex-row px-2 md:px-6">
         {/* Description */}
+
         <div className="w-full space-y-4 font-bold">
-          <h1 className="text-3xl md:text-5xl font-bold mb-8">
-            Let’s Get in Touch
-          </h1>
-          <div className="flex items-center  gap-1">
-            <IoHome size={35} />
-            <p className="text-xl"> Rajshahi, Bangladesh</p>
-          </div>
-          <div className="flex items-center gap-1">
-            <FaPhoneSquare size={35} />
-            <p className="text-xl">+880-1319687088</p>
-          </div>
-          <div className="flex items-center gap-1">
-            <FaWhatsappSquare size={35} />
-            <p className="text-xl">+880-1609583916</p>
-          </div>
-          <div className="flex items-center  gap-1">
-            <IoMdMail size={35} />
-            <p className="text-xl">mizanrbf@gmail.com</p>
-          </div>
+          <Section2>
+            <h1 className="text-3xl md:text-5xl font-bold mb-8">
+              Let’s Get in Touch
+            </h1>
+            <div className="flex items-center  gap-1">
+              <IoHome size={35} />
+              <p className="text-xl"> Rajshahi, Bangladesh</p>
+            </div>
+            <div className="flex items-center gap-1">
+              <FaPhoneSquare size={35} />
+              <p className="text-xl">+880-1319687088</p>
+            </div>
+            <div className="flex items-center gap-1">
+              <FaWhatsappSquare size={35} />
+              <p className="text-xl">+880-1609583916</p>
+            </div>
+            <div className="flex items-center  gap-1">
+              <IoMdMail size={35} />
+              <p className="text-xl">mizanrbf@gmail.com</p>
+            </div>
 
-          {/* Social Icons */}
-          <div className="flex gap-3 text-4xl md:text-6xl mb-8 mt-14 text-black">
-            <a
-              className="hover:text-primary"
-              href="https://github.com/MizanRbf"
-            >
-              <FaGithub />
-            </a>
+            {/* Social Icons */}
+            <div className="flex gap-3 text-4xl md:text-6xl mb-8 mt-14 text-black">
+              <a
+                className="hover:text-primary"
+                href="https://github.com/MizanRbf"
+              >
+                <FaGithub />
+              </a>
 
-            <a
-              className="hover:text-primary"
-              href="https://www.linkedin.com/in/mizanrbf/"
-            >
-              <FaLinkedin />
-            </a>
+              <a
+                className="hover:text-primary"
+                href="https://www.linkedin.com/in/mizanrbf/"
+              >
+                <FaLinkedin />
+              </a>
 
-            <a className="hover:text-primary" href="https://x.com/MizanRbf/">
-              <FaXTwitter />
-            </a>
-            <a
-              className="hover:text-primary"
-              href="https://wa.me/8801609583916"
-            >
-              <FaWhatsappSquare />
-            </a>
-          </div>
+              <a className="hover:text-primary" href="https://x.com/MizanRbf/">
+                <FaXTwitter />
+              </a>
+              <a
+                className="hover:text-primary"
+                href="https://wa.me/8801609583916"
+              >
+                <FaWhatsappSquare />
+              </a>
+            </div>
+          </Section2>
         </div>
-        {/* Form */}
 
+        {/* Form */}
         <div className=" w-full border-secondary">
-          <Section>
+          <Section1>
             <div className="px-6 py-6 bg-secondary rounded-sm">
               <h1 className="text-primary text-4xl font-bold mb-4">
                 Fill the Form to Connect
@@ -150,7 +163,7 @@ const Contact = () => {
                 </button>
               </form>
             </div>
-          </Section>
+          </Section1>
         </div>
       </div>
     </div>

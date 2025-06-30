@@ -2,25 +2,30 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import bannerImg1 from "../../../../public/assets/banner1.jpg";
-import bannerImg2 from "../../../../public/assets/banner2.jpg";
-import bannerImg3 from "../../../../public/assets/banner3.jpg";
+import ProSlider1 from "../../../../public/assets/Pro3,Slid1.png";
+import ProSlider2 from "../../../../public/assets/Pro3,Slid2.png";
+import ProSlider3 from "../../../../public/assets/Pro3,Slid3.png";
+import ProSlider4 from "../../../../public/assets/Pro3,Slid4.png";
 
 const Slider3 = () => {
   return (
-    <div className="h-full">
+    <div className="md:h-[150px] lg:h-[250px] overflow-hidden">
       <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false}>
         {/* Slider-1 */}
         <div className="h-full">
-          <img className="h-full" src={bannerImg1} />
+          <img className="h-full" src={ProSlider1} />
         </div>
         {/* Slider-2 */}
         <div className="h-full">
-          <img className="h-full" src={bannerImg2} />
+          <img className="h-full" src={ProSlider2} />
         </div>
         {/* Slider-3 */}
         <div className="h-full">
-          <img className="h-full" src={bannerImg3} />
+          <img className="h-full" src={ProSlider3} />
+        </div>
+        {/* Slider-3 */}
+        <div className="h-full">
+          <img className="h-full" src={ProSlider4} />
         </div>
       </Carousel>
     </div>
