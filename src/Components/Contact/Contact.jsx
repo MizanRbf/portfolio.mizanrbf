@@ -62,108 +62,113 @@ const Contact = () => {
       );
   };
   return (
-    <div id="contact" className=" mb-20 z-0">
-      {/* Title */}
-      <div className="text-center  mb-20">
-        <h1 className="text-2xl md:text-4xl font-bold mb-3">
-          <TitleBar title="📬Contact Me" />
-        </h1>
-      </div>
-      {/* Contact */}
-      <div className="flex items-center flex-col md:flex-row px-2 md:px-6">
-        {/* Description */}
-
-        <div className="w-full space-y-4 font-bold">
-          <Section2>
-            <h1 className="text-3xl md:text-5xl font-bold mb-8">
-              Let’s Get in Touch
-            </h1>
-            <div className="flex items-center  gap-1">
-              <IoHome size={35} />
-              <p className="text-xl"> Rajshahi, Bangladesh</p>
-            </div>
-            <div className="flex items-center gap-1">
-              <FaPhoneSquare size={35} />
-              <p className="text-xl">+880-1319687088</p>
-            </div>
-            <div className="flex items-center gap-1">
-              <FaWhatsappSquare size={35} />
-              <p className="text-xl">+880-1609583916</p>
-            </div>
-            <div className="flex items-center  gap-1">
-              <IoMdMail size={35} />
-              <p className="text-xl">mizanrbf@gmail.com</p>
-            </div>
-
-            {/* Social Icons */}
-            <div className="flex gap-3 text-4xl md:text-6xl mb-8 mt-14 text-black">
-              <a
-                className="hover:text-primary"
-                href="https://github.com/MizanRbf"
-              >
-                <FaGithub />
-              </a>
-
-              <a
-                className="hover:text-primary"
-                href="https://www.linkedin.com/in/mizanrbf/"
-              >
-                <FaLinkedin />
-              </a>
-
-              <a className="hover:text-primary" href="https://x.com/MizanRbf/">
-                <FaXTwitter />
-              </a>
-              <a
-                className="hover:text-primary"
-                href="https://wa.me/8801609583916"
-              >
-                <FaWhatsappSquare />
-              </a>
-            </div>
-          </Section2>
+    <div id="contact" className=" pb-30 pt-30 z-0 bg-[#141414]">
+      <div className="max-w-[1500px] mx-auto">
+        {/* Title */}
+        <div className="text-center mb-20">
+          <h1 className="text-2xl md:text-4xl font-bold mb-10 border-6 border-primary px-6 py-2 inline-block border-t-0 border-r-0 text-white">
+            📬 Contact <span className="text-primary">Me</span>
+          </h1>
         </div>
+        {/* Contact */}
+        <div className="flex items-center flex-col md:flex-row px-2 md:px-6">
+          {/* Description */}
 
-        {/* Form */}
-        <div className=" w-full border-secondary">
-          <Section1>
-            <div className="px-6 py-6 bg-secondary rounded-sm">
-              <h1 className="text-primary text-4xl font-bold mb-4">
-                Fill the Form to Connect
+          <div className="w-full space-y-4 font-bold">
+            <Section2>
+              <h1 className="text-3xl md:text-5xl font-bold mb-8 text-white">
+                Let’s Get in Touch
               </h1>
-              <form ref={form} onSubmit={handleSubmit} className="fieldset">
-                <label className="text-white">Your Name</label>
-                <input
-                  type="text"
-                  name="user_name"
-                  className="border border-white rounded-xs py-3 pl-2 w-full bg-white"
-                  placeholder="Name..."
-                />
-                <label className="text-white">Your Email</label>
-                <input
-                  type="email"
-                  name="user_email"
-                  className="border border-secondary rounded-xs py-3 pl-2 w-full bg-white"
-                  placeholder="Email..."
-                />
-                <label className="text-white"> Message</label>
-                <textarea
-                  rows={5}
-                  type="text"
-                  name="user_message"
-                  className="border border-secondary rounded-xs w-full pl-2 bg-white"
-                  placeholder="Text Here"
-                />
+              <div className="flex items-center text-white gap-1">
+                <IoHome size={35} />
+                <p className="text-xl"> Rajshahi, Bangladesh</p>
+              </div>
+              <div className="flex items-center text-white gap-1">
+                <FaPhoneSquare size={35} />
+                <p className="text-xl">+880-1319687088</p>
+              </div>
+              <div className="flex items-center text-white gap-1">
+                <FaWhatsappSquare size={35} />
+                <p className="text-xl">+880-1609583916</p>
+              </div>
+              <div className="flex items-center text-white gap-1">
+                <IoMdMail size={35} />
+                <p className="text-xl">mizanrbf@gmail.com</p>
+              </div>
 
-                <button
-                  type="submit"
-                  className="bg-primary text-white text-lg rounded-xs py-1 shadow-xl mt-4"
+              {/* Social Icons */}
+              <div className="flex gap-3 text-4xl md:text-6xl mb-8 mt-14 text-white">
+                <a
+                  className="hover:text-primary"
+                  href="https://github.com/MizanRbf"
                 >
-                  Send
-                </button>
-              </form>
-            </div>
-          </Section1>
+                  <FaGithub />
+                </a>
+
+                <a
+                  className="hover:text-primary"
+                  href="https://www.linkedin.com/in/mizanrbf/"
+                >
+                  <FaLinkedin />
+                </a>
+
+                <a
+                  className="hover:text-primary"
+                  href="https://x.com/MizanRbf/"
+                >
+                  <FaXTwitter />
+                </a>
+                <a
+                  className="hover:text-primary"
+                  href="https://wa.me/8801609583916"
+                >
+                  <FaWhatsappSquare />
+                </a>
+              </div>
+            </Section2>
+          </div>
+
+          {/* Form */}
+          <div className=" w-full">
+            <Section1>
+              <div className="px-6 py-6 bg- rounded-sm">
+                <h1 className="text-primary text-4xl font-bold mb-4">
+                  Fill the Form to Connect
+                </h1>
+                <form ref={form} onSubmit={handleSubmit} className="fieldset">
+                  <label className="text-white">Your Name</label>
+                  <input
+                    type="text"
+                    name="user_name"
+                    className="border border-white rounded-xs py-3 pl-2 w-full bg-white"
+                    placeholder="Name..."
+                  />
+                  <label className="text-white">Your Email</label>
+                  <input
+                    type="email"
+                    name="user_email"
+                    className="border border-secondary rounded-xs py-3 pl-2 w-full bg-white"
+                    placeholder="Email..."
+                  />
+                  <label className="text-white"> Message</label>
+                  <textarea
+                    rows={5}
+                    type="text"
+                    name="user_message"
+                    className="border border-secondary rounded-xs w-full pl-2 bg-white"
+                    placeholder="Text Here"
+                  />
+
+                  <button
+                    type="submit"
+                    className="bg-primary text-white text-lg rounded-xs py-1 shadow-xl mt-4"
+                  >
+                    Send
+                  </button>
+                </form>
+              </div>
+            </Section1>
+          </div>
         </div>
       </div>
     </div>

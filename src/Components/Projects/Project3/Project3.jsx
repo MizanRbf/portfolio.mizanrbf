@@ -27,7 +27,7 @@ const Project3 = () => {
           <div className="w-full text-left">
             {/* Title */}
             <h1 className="text-2xl lg:text-4xl font-bold mb-2 text-primary">
-              Skilnado
+              Subnestic
             </h1>
             {/* Description */}
             <h3 className="text-sm mb-3">

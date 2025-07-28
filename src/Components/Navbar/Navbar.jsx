@@ -24,20 +24,18 @@ const Navbar = () => {
     <div
       className={` text-black fixed right-0 top-0 left-0 z-999 transform transition-all duration-300 ease-in-out ${
         isScrolled
-          ? "bg-white py-1 shadow-xl"
-          : "bg-secondary py-2 border border-t-0 border-x-0 border-primary"
+          ? "bg-[#000000] py-1 shadow-xl"
+          : "bg-black py-2 border border-t-0 border-x-0 border-primary"
       }`}
     >
       <div className="flex justify-between items-center max-w-[1500px] mx-auto px-4">
         <div className="flex items-center gap-3">
           {/* Logo */}
           <div className="flex items-center">
-            <img className="w-13" src="/assets/logo.png" alt="" />
-            <p className="text-3xl font-bold text-primary">
+            <img className="w-14" src="/assets/logo.png" alt="" />
+            <p className="text-4xl font-bold text-primary">
               Miza
-              <span className={`${isScrolled ? "text-red-500" : "text-white"}`}>
-                n
-              </span>
+              <span className="text-white">n</span>
               Rbf
             </p>
           </div>
@@ -45,9 +43,7 @@ const Navbar = () => {
 
         {/* Menubar for Large Device */}
         <div
-          className={`lg:flex *:px-3 gap-4 transition-all duration-500 ease-in-out font-bold hidden items-center  ${
-            isScrolled ? "text-black" : "text-white"
-          }`}
+          className={`lg:flex *:px-3 gap-4 transition-all duration-500 ease-in-out font-bold hidden items-center text-white`}
         >
           <ul className="flex gap-8">
             <li className="hover:text-primary">
@@ -71,7 +67,7 @@ const Navbar = () => {
             </li>
           </ul>
           <a
-            href="https://drive.google.com/file/d/1CBwCfoaCvnUuC11G_esJVAd2uXrA9p2X/view?usp=sharing"
+            href="https://drive.google.com/file/d/1L-R_ksEAxTKKe-oNtp9MLtd8iSFhb2ga/view?usp=drive_link"
             target="blank"
             className="bg-primary px-4 py-2 rounded-xs hover:bg-[#4c8626] cursor-pointer flex items-center gap-1"
           >

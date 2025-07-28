@@ -1,6 +1,6 @@
 const AboutComponent = () => {
   return (
-    <section className="  text-black">
+    <section className="  text-white">
       <div className="max-w-4xl mx-auto md:pl-4 text-justify space-y-5 text-sm lg:text-base leading-relaxed">
         <p className="text-base leading-relaxed mb-4">
           I'm <span className="font-semibold text-primary">Mizanur Rahman</span>

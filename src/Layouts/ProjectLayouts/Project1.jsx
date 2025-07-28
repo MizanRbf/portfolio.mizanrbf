@@ -6,7 +6,7 @@ import { IoReturnDownBackOutline } from "react-icons/io5";
 
 const Project1 = () => {
   return (
-    <div className="w-full p-10  flex items-center px-10">
+    <div className="border min-h-screen overflow-y-auto bg-black p-10 flex items-center justify-center">
       <div className="shadow-lg border border-gray-100 p-4 rounded-sm max-w-[1500px] mx-auto px-4">
         <div className="flex flex-col lg:flex-row gap-6 items-center ">
           {/* Left Section */}
@@ -15,12 +15,17 @@ const Project1 = () => {
               <Slider1></Slider1>
             </div>
             {/* Title */}
-            <h1 className="text-2xl lg:text-4xl font-bold mb-3 text-primary lg:hidden">
-              Skilnado
-            </h1>
+            <div className="items-center gap-5 mb-6 lg:hidden flex">
+              <h1 className="text-2xl lg:text-4xl font-bold text-primary">
+                Skilnado
+              </h1>
+              <p className="text-lg text-white">(A Task Marketplace)</p>
+            </div>
             {/* Tech Stacks */}
             <div className="mb-6">
-              <h2 className="font-bold underline mb-1">Tech Stacks :</h2>
+              <h2 className="font-bold underline mb-1 text-white">
+                Tech Stacks :
+              </h2>
               <TechBadges></TechBadges>
             </div>
 
@@ -53,11 +58,14 @@ const Project1 = () => {
           </div>
 
           {/* Right Section */}
-          <div className="w-full text-left">
+          <div className="w-full text-left text-white">
             {/* Title */}
-            <h1 className="text-2xl lg:text-4xl font-bold mb-3 text-primary hidden lg:block">
-              Skilnado
-            </h1>
+            <div className="items-center gap-5 mb-6 hidden lg:flex">
+              <h1 className="text-2xl lg:text-4xl font-bold text-primary">
+                Skilnado
+              </h1>
+              <p className="text-lg">(A Task Marketplace)</p>
+            </div>
             {/* Description */}
             <h3 className="text-sm mb-2">
               A dynamic task marketplace platform that connects clients and

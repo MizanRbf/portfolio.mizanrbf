@@ -10,16 +10,14 @@ import {
 } from "react-icons/fa";
 import {
   SiTailwindcss,
-  SiFramer,
   SiFirebase,
   SiMongodb,
   SiExpress,
   SiVercel,
   SiNetlify,
   SiNpm,
-  SiGithubpages,
+  SiNextdotjs,
 } from "react-icons/si";
-import { BsFillFileEarmarkCodeFill } from "react-icons/bs";
 
 const SkillBadge = ({ icon, name }) => (
   <div className="flex items-center gap-2 bg-[#000000] hover:bg-[#1f242d] text-white px-3 py-2 rounded-sm text-xs font-mono uppercase shadow-sm transition-all duration-200">
@@ -41,7 +39,7 @@ const SkillSection = ({ title, items }) => (
 
 const SkillsComponent = () => {
   return (
-    <section id="skills" className=" text-black py-12 md:px-20">
+    <section id="skills" className=" text-white py-12 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div>
           <SkillSection
@@ -60,6 +58,10 @@ const SkillsComponent = () => {
             title="JS Framework/Library"
             items={[
               { name: "ReactJS", icon: <FaReact className="text-sky-400" /> },
+              {
+                name: "Next.js",
+                icon: <SiNextdotjs className="text-white" />,
+              },
             ]}
           />
 

@@ -7,7 +7,7 @@ import { IoReturnDownBackOutline } from "react-icons/io5";
 
 const Project3 = () => {
   return (
-    <div className="w-full flex items-center p-10">
+    <div className="border min-h-screen overflow-y-auto bg-black p-10 flex items-center justify-center">
       <div className="shadow-lg border border-gray-100 p-4 rounded-sm max-w-[1500px] mx-auto px-4">
         <div className="flex flex-col lg:flex-row gap-6 items-center">
           {/* Left Section */}
@@ -17,12 +17,17 @@ const Project3 = () => {
             </div>
 
             {/* Title */}
-            <h1 className="text-2xl lg:text-4xl font-bold mb-3 text-primary lg:hidden">
-              Subnestic
-            </h1>
+            <div className="items-center gap-5 mb-6 lg:hidden flex text-white">
+              <h1 className="text-2xl lg:text-4xl font-bold text-primary">
+                Subnestic
+              </h1>
+              <p className="text-lg">(Subscription Box Service)</p>
+            </div>
             {/* Tech Stacks */}
             <div className="mb-6">
-              <h2 className="font-bold underline mb-1">Tech Stacks :</h2>
+              <h2 className="font-bold underline mb-1 text-white">
+                Tech Stacks :
+              </h2>
               <TechBadges></TechBadges>
             </div>
 
@@ -52,11 +57,15 @@ const Project3 = () => {
           </div>
 
           {/* Right Section */}
-          <div className="w-full text-left">
+          <div className="w-full text-left text-white">
             {/* Title */}
-            <h1 className="text-2xl lg:text-4xl font-bold mb-3 text-primary hidden lg:block">
-              Subnestic
-            </h1>
+            <div className="items-center gap-5 mb-6 hidden lg:flex ">
+              <h1 className="text-2xl lg:text-4xl font-bold text-primary">
+                Subnestic
+              </h1>
+              <p className="text-lg">(Subscription Box Service)</p>
+            </div>
+
             {/* Description */}
             <h3 className="text-sm mb-2">
               Subnestic is a sleek and scalable web application that allows

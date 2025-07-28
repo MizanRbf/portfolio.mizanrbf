@@ -34,8 +34,8 @@ const Section2 = ({ children }) => (
 
 const Banner = () => {
   return (
-    <div id="home" className="bg-secondary">
-      <div className="pt-30 pb-13 mb-30 flex items-center flex-col-reverse md:flex-row justify-between gap-4  max-w-[1500px] mx-auto px-4">
+    <div id="home" className="bg-black">
+      <div className="pt-30 pb-13 flex items-center flex-col-reverse md:flex-row justify-between gap-4  max-w-[1500px] mx-auto px-4">
         {/* Left Section */}
         <Section1>
           <div>
@@ -77,7 +77,7 @@ const Banner = () => {
             {/* Button */}
             <div className="flex gap-3">
               <a
-                href="https://drive.google.com/file/d/1CBwCfoaCvnUuC11G_esJVAd2uXrA9p2X/view?usp=sharing"
+                href="https://drive.google.com/file/d/1L-R_ksEAxTKKe-oNtp9MLtd8iSFhb2ga/view?usp=drive_link"
                 target="blank"
                 className="bg-primary px-4 py-2 rounded-xs hover:bg-[#4c8626] cursor-pointer flex items-center gap-1 font-bold"
               >
