@@ -6,7 +6,7 @@ import Project3 from "./Project3/Project3";
 
 const Project = () => {
   return (
-    <div id="projects" className="pb-30 pt-30 bg-black">
+    <div id="projects" className="pb-30 pt-30 bg-black px-4">
       <div className="text-center max-w-[1500px] mx-auto">
         <h1 className="text-2xl md:text-4xl font-bold mb-15 border-6 border-primary px-6 py-2 inline-block border-t-0 border-l-0 text-white">
           🖥️ <span className="text-primary">My</span> Projects
