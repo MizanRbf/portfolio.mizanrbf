@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <div id="projects" className="pb-30 pt-30 bg-black">
       <div className="text-center max-w-[1500px] mx-auto">
-        <h1 className="text-2xl md:text-4xl font-bold mb-20 border-6 border-primary px-6 py-2 inline-block border-t-0 border-l-0 text-white">
+        <h1 className="text-2xl md:text-4xl font-bold mb-15 border-6 border-primary px-6 py-2 inline-block border-t-0 border-l-0 text-white">
           🖥️ <span className="text-primary">My</span> Projects
         </h1>
         {/* Projects Field */}

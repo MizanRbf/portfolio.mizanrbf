@@ -62,10 +62,10 @@ const Contact = () => {
       );
   };
   return (
-    <div id="contact" className=" pb-30 pt-30 z-0 bg-[#141414]">
+    <div id="contact" className=" pb-30 pt-30 z-0 bg-[#141414] px-4">
       <div className="max-w-[1500px] mx-auto">
         {/* Title */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-15">
           <h1 className="text-2xl md:text-4xl font-bold mb-10 border-6 border-primary px-6 py-2 inline-block border-t-0 border-r-0 text-white">
             📬 Contact <span className="text-primary">Me</span>
           </h1>
@@ -79,25 +79,25 @@ const Contact = () => {
               <h1 className="text-3xl md:text-5xl font-bold mb-8 text-white">
                 Let’s Get in Touch
               </h1>
-              <div className="flex items-center text-white gap-1">
+              <div className="flex items-center text-white gap-1 mb-3">
                 <IoHome size={35} />
                 <p className="text-xl"> Rajshahi, Bangladesh</p>
               </div>
-              <div className="flex items-center text-white gap-1">
+              <div className="flex items-center text-white gap-1 mb-3">
                 <FaPhoneSquare size={35} />
                 <p className="text-xl">+880-1319687088</p>
               </div>
-              <div className="flex items-center text-white gap-1">
+              <div className="flex items-center text-white gap-1 mb-3">
                 <FaWhatsappSquare size={35} />
                 <p className="text-xl">+880-1609583916</p>
               </div>
-              <div className="flex items-center text-white gap-1">
+              <div className="flex items-center text-white gap-1 mb-3">
                 <IoMdMail size={35} />
                 <p className="text-xl">mizanrbf@gmail.com</p>
               </div>
 
               {/* Social Icons */}
-              <div className="flex gap-3 text-4xl md:text-6xl mb-8 mt-14 text-white">
+              <div className="flex gap-3 text-4xl md:text-5xl mb-8 mt-14 text-white">
                 <a
                   className="hover:text-primary"
                   href="https://github.com/MizanRbf"
@@ -131,7 +131,7 @@ const Contact = () => {
           {/* Form */}
           <div className=" w-full">
             <Section1>
-              <div className="px-6 py-6 bg- rounded-sm">
+              <div className="md:px-6 py-6 bg- rounded-sm">
                 <h1 className="text-primary text-4xl font-bold mb-4">
                   Fill the Form to Connect
                 </h1>

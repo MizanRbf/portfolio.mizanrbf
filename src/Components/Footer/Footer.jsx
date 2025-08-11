@@ -15,30 +15,30 @@ const Footer = () => {
           <img className="w-30" src="/assets/logo.png" alt="" />
         </div>
         {/* Social Icons */}
-        <div className="flex gap-3 text-2xl md:text-4xl justify-center">
+        <div className="flex gap-6 text-2xl md:text-4xl justify-center">
           <a
-            className="text-gray-500 hover:text-primary"
+            className="text-[#6b6b6b] hover:text-primary"
             href="https://github.com/MizanRbf"
           >
             <FaGithub />
           </a>
 
           <a
-            className="text-gray-500 hover:text-primary"
+            className="text-[#6b6b6b] hover:text-primary"
             href="https://www.linkedin.com/in/mizanrbf/"
           >
             <FaLinkedin />
           </a>
 
           <a
-            className="text-gray-500 hover:text-primary"
+            className="text-[#6b6b6b] hover:text-primary"
             href="https://x.com/MizanRbf/"
           >
             <FaXTwitter />
           </a>
 
           <a
-            className="text-gray-500 hover:text-primary"
+            className="text-[#6b6b6b] hover:text-primary"
             href="https://wa.me/8801609583916"
           >
             <FaWhatsappSquare />
@@ -47,8 +47,9 @@ const Footer = () => {
         <hr className="border-dashed text-primary" />
 
         {/* Copy Right */}
-        <div class="text-gray-500 text-center text-sm">
-          &copy; 2025 <span class="font-semibold">Mizanur Rahman</span>. All
+        <div class="text-[#6b6b6b] text-center text-sm">
+          &copy; 2025{" "}
+          <span class="font-semibold text-white">Mizanur Rahman</span>. All
           rights reserved.
         </div>
       </div>
