@@ -14,12 +14,12 @@ const Project = () => {
         {/* Projects Field */}
 
         <div className="px-2 md:px-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-white">
-          {/* Project-1 */}
-          <Project1></Project1>
-          {/* Project-2 */}
-          <Project2></Project2>
           {/* Project-3 */}
           <Project3></Project3>
+          {/* Project-2 */}
+          <Project2></Project2>
+          {/* Project-1 */}
+          <Project1></Project1>
         </div>
       </div>
     </div>

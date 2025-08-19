@@ -27,11 +27,11 @@ const Project3 = () => {
           <div className="w-full text-left">
             {/* Title */}
             <h1 className="text-2xl lg:text-4xl font-bold mb-2 text-primary">
-              Subnestic
+              Edufellow
             </h1>
             {/* Description */}
             <h3 className="text-sm mb-3">
-              It's a scalable web app that allows to curated subscription boxes.
+              An educational platform for managing scholarships with user roles.
             </h3>
 
             {/* Button */}

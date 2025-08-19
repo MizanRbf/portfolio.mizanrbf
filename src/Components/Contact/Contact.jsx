@@ -131,7 +131,7 @@ const Contact = () => {
           {/* Form */}
           <div className=" w-full">
             <Section1>
-              <div className="md:px-6 py-6 bg- rounded-sm">
+              <div className="py-6 bg- rounded-sm">
                 <h1 className="text-primary text-4xl font-bold mb-4">
                   Fill the Form to Connect
                 </h1>

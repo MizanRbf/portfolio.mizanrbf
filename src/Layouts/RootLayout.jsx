@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "../Components/Navbar/navbar";
+
 import About from "../Components/About/About";
-import Banner from "../Components/Banner/banner";
-import Footer from "../Components/Footer/footer";
+
 import Education from "../Components/Education/Education";
 import Skills from "../Components/Skills/Skills";
 import Project from "../Components/Projects/Project";
 import Contact from "../Components/Contact/Contact";
+import Banner from "../Components/Banner/Banner";
+import Navbar from "../Components/Navbar/Navbar";
+import Footer from "../Components/Footer/Footer";
 
 const RootLayout = () => {
   return (
