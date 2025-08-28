@@ -6,6 +6,7 @@ import {
   FaPhoneAlt,
   FaCloudDownloadAlt,
 } from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
 
 import { FaXTwitter } from "react-icons/fa6";
 import { MdWavingHand } from "react-icons/md";
@@ -49,7 +50,22 @@ const Banner = () => {
               I'm Mizanur Rahman
             </h1>
             <p className="text-[#c4c4c4] text-sm md:text-2xl lg:text-3xl font-bold mt-8">
-              A passionate Junior MERN Stack Developer
+              A passionate junior{" "}
+              <span style={{ color: "green", fontWeight: "bold" }}>
+                <Typewriter
+                  words={[
+                    "MERN Stack Developer",
+                    "Front-End Developer",
+                    "Full Stack Developer",
+                  ]}
+                  loop={5}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
             </p>
             <p className="bg-white text-secondary text-[10px] md:text-sm font-medium px-2 rounded-full inline-block text-shadow-lg">
               who loves building fast, responsive, and scalable web applications
