@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import { TitleBar } from "../../Shared/TitleBar";
 import { IoHome } from "react-icons/io5";
 import {
   FaGithub,

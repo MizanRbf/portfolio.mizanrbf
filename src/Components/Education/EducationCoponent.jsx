@@ -17,7 +17,7 @@ const EducationComponent = () => {
       <div className="space-y-6">
         {/* University */}
         <Section>
-          <div className="bg-secondary p-5 rounded-md shadow ">
+          <div className="bg-secondary p-5 rounded-md shadow border">
             <h3 className="text-xl text-white font-semibold">
               University of Rajshahi
             </h3>
@@ -30,7 +30,7 @@ const EducationComponent = () => {
 
         {/* Optional: Another education */}
         <Section>
-          <div className="bg-secondary p-5 rounded-md shadow">
+          <div className="bg-secondary p-5 rounded-md shadow border">
             <h3 className="text-xl font-semibold text-white">
               Programming Hero
             </h3>

@@ -20,16 +20,20 @@ import {
 } from "react-icons/si";
 
 const SkillBadge = ({ icon, name }) => (
-  <div className="flex items-center gap-2 bg-[#000000] hover:bg-[#1f242d] text-white px-3 py-2 rounded-sm text-xs font-mono uppercase shadow-sm transition-all duration-150">
-    <span className="text-base">{icon}</span>
-    {name}
+  <div className="flex flex-col justify-center items-center gap-4 bg-[#181818] hover:bg-[#1f242d] text-white rounded-sm text-base font-mono uppercase shadow-xl transition-all duration-150 w-40 h-40">
+    <div>
+      <span className="text-6xl">{icon}</span>
+    </div>
+    <div>{name}</div>
   </div>
 );
 
 const SkillSection = ({ title, items }) => (
-  <div className="mb-8">
-    <h3 className="text-lg font-semibold border-b pb-1 mb-3">{title}</h3>
-    <div className="flex flex-wrap gap-2">
+  <div className="mb-15">
+    <h3 className="text-lg font-semibold border-b-2  rounded-md  pb-1 mb-6">
+      {title}
+    </h3>
+    <div className="flex flex-wrap  gap-4">
       {items.map((item, index) => (
         <SkillBadge key={index} icon={item.icon} name={item.name} />
       ))}

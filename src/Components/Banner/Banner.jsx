@@ -49,13 +49,14 @@ const Banner = () => {
             <h1 className="text-white mb-2 text-3xl md:text-4xl lg:text-6xl font-bold">
               I'm Mizanur Rahman
             </h1>
-            <p className="text-[#c4c4c4] text-sm md:text-2xl lg:text-3xl font-bold mt-8">
+            <p className="text-[#c4c4c4] text-sm md:text-2xl lg:text-3xl font-bold mt-8 mb-2">
               A passionate junior{" "}
               <span style={{ color: "green", fontWeight: "bold" }}>
                 <Typewriter
                   words={[
                     "MERN Stack Developer",
                     "Front-End Developer",
+                    "React Developer",
                     "Full Stack Developer",
                   ]}
                   loop={5}
@@ -67,7 +68,7 @@ const Banner = () => {
                 />
               </span>
             </p>
-            <p className="bg-white text-secondary text-[10px] md:text-sm font-medium px-2 rounded-full inline-block text-shadow-lg">
+            <p className="bg-white text-secondary text-[10px] md:text-sm font-medium px-2 rounded-full inline-block text-shadow-lg ">
               who loves building fast, responsive, and scalable web applications
             </p>
             {/* Social Icons */}
