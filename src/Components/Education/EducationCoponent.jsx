@@ -28,14 +28,27 @@ const EducationComponent = () => {
           </div>
         </Section>
 
-        {/* Optional: Another education */}
+        {/* Programming Hero */}
         <Section>
           <div className="bg-secondary p-5 rounded-md shadow border">
             <h3 className="text-xl font-semibold text-white">
               Programming Hero
             </h3>
             <p className="text-sm text-gray-400">Web Development Course</p>
-            <p className="text-sm text-gray-400">2024 – Present</p>
+            <p className="text-sm text-gray-400">2024 – 2025</p>
+          </div>
+        </Section>
+
+        {/* Next Level */}
+        <Section>
+          <div className="bg-secondary p-5 rounded-md shadow border">
+            <h3 className="text-xl font-semibold text-white">
+              Next Level Web Development
+            </h3>
+            <p className="text-sm text-gray-400">
+              Advanced Web Development Course
+            </p>
+            <p className="text-sm text-gray-400">2025 – Present</p>
           </div>
         </Section>
       </div>
