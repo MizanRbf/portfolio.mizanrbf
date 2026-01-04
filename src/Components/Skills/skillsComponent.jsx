@@ -17,6 +17,7 @@ import {
   SiNetlify,
   SiNpm,
   SiNextdotjs,
+  SiTypescript,
 } from "react-icons/si";
 
 const SkillBadge = ({ icon, name }) => (
@@ -54,13 +55,17 @@ const SkillsComponent = () => {
                 name: "JavaScript",
                 icon: <FaJs className="text-yellow-400" />,
               },
+              {
+                name: "TypeScript",
+                icon: <SiTypescript className="text-blue-500" />,
+              },
               { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" /> },
               { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
             ]}
           />
 
           <SkillSection
-            title="JS Framework/Library"
+            title="Front-End Framework/Library"
             items={[
               { name: "ReactJS", icon: <FaReact className="text-sky-400" /> },
               {
