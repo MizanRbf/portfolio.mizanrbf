@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           {/* Logo */}
           <div className="flex items-center">
-            <img className="w-14" src="/src/assets/logo.png" alt="" />
+            <img className="w-14" src="/src/assets/logo2.png" alt="" />
             <p className="text-4xl font-bold text-primary">
               Miza
               <span className="text-white">n</span>

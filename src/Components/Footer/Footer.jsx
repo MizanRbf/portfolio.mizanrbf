@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="flex-col md:flex-row  md:justify-between px-6 md:px-10 space-y-4">
         {/* Name */}
         <div className="flex justify-center">
-          <img className="w-35" src="/src/assets/logo.png" alt="" />
+          <img className="w-35" src="/src/assets/logo2.png" alt="" />
         </div>
         {/* Social Icons */}
         <div className="flex gap-6 text-2xl md:text-4xl justify-center">
@@ -48,9 +48,8 @@ const Footer = () => {
 
         {/* Copy Right */}
         <div class="text-[#6b6b6b] text-center text-sm">
-          &copy; 2025{" "}
-          <span class="font-semibold text-white">Mizanur Rahman</span>. All
-          rights reserved.
+          &copy; 2025 All rights reserved by{" "}
+          <span class="font-semibold text-white">Mizanur Rahman</span>.
         </div>
       </div>
     </div>
