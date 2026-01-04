@@ -45,6 +45,7 @@ const SkillsComponent = () => {
   return (
     <section id="skills" className=" text-white py-12 md:px-15">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        {/* Left Side */}
         <div>
           <SkillSection
             title="Languages"
@@ -86,8 +87,9 @@ const SkillsComponent = () => {
             ]}
           />
         </div>
-
+        {/* Right Side */}
         <div>
+          {/* Database */}
           <SkillSection
             title="Database"
             items={[
@@ -99,9 +101,14 @@ const SkillsComponent = () => {
                 name: "MongoDB",
                 icon: <SiMongodb className="text-green-600" />,
               },
+              {
+                name: "PostgreSQL",
+                icon: <SiMongodb className="text-green-600" />,
+              },
             ]}
           />
 
+          {/* Backend */}
           <SkillSection
             title="Backend"
             items={[
@@ -112,7 +119,7 @@ const SkillsComponent = () => {
               },
             ]}
           />
-
+          {/* Web Hosting */}
           <SkillSection
             title="Web Hosting"
             items={[
@@ -128,12 +135,13 @@ const SkillsComponent = () => {
               },
             ]}
           />
-
+          {/* Package Manager */}
           <SkillSection
             title="Package Manager"
             items={[{ name: "NPM", icon: <SiNpm className="text-red-500" /> }]}
           />
 
+          {/* Version Control */}
           <SkillSection
             title="Version Control"
             items={[

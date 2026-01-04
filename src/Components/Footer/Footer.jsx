@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="flex-col md:flex-row  md:justify-between px-6 md:px-10 space-y-4">
         {/* Name */}
         <div className="flex justify-center">
-          <img className="w-35" src="/assets/logo.png" alt="" />
+          <img className="w-35" src="/src/assets/logo.png" alt="" />
         </div>
         {/* Social Icons */}
         <div className="flex gap-6 text-2xl md:text-4xl justify-center">

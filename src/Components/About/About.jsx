@@ -42,7 +42,7 @@ const About = () => {
             <div className="rounded-full  h-fit p-1 ring-1 ring-offset-1 ring-primary">
               <img
                 className="rounded-full w-70 md:w-80 lg:w-90"
-                src="/assets/about.jpg"
+                src="/src/assets/about.jpg"
                 alt=""
               />
             </div>

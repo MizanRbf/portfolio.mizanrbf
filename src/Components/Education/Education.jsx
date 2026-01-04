@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="relative bg-[url('/assets/RU.jpg')] bg-cover bg-center pb-30 pt-30"
+      className="relative bg-[url('/src/assets/RU.jpg')] bg-cover bg-center pb-30 pt-30"
     >
       <div className="text-center  max-w-[1500px] mx-auto">
         {/* Overlay */}
