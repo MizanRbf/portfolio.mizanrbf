@@ -18,8 +18,10 @@ import {
   SiNpm,
   SiNextdotjs,
   SiTypescript,
+  SiPostgresql,
 } from "react-icons/si";
 
+// SkillBadge
 const SkillBadge = ({ icon, name }) => (
   <div className="flex flex-col justify-center items-center gap-4 bg-[#181818] hover:bg-[#1f242d] text-white rounded-sm text-base font-mono uppercase shadow-xl transition-all duration-150 w-40 h-40">
     <div>
@@ -29,6 +31,7 @@ const SkillBadge = ({ icon, name }) => (
   </div>
 );
 
+// Skill Section
 const SkillSection = ({ title, items }) => (
   <div className="mb-15">
     <h3 className="text-lg font-semibold border-b-2  rounded-md  pb-1 mb-6">
@@ -41,7 +44,7 @@ const SkillSection = ({ title, items }) => (
     </div>
   </div>
 );
-
+// Skill Component
 const SkillsComponent = () => {
   return (
     <section id="skills" className=" text-white py-12 md:px-15">
@@ -88,7 +91,7 @@ const SkillsComponent = () => {
           <SkillSection
             title="Design Tools"
             items={[
-              { name: "Figma", icon: <FaFigma className="text-pink-500" /> },
+              { name: "Figma", icon: <FaFigma className="text-white-500" /> },
             ]}
           />
         </div>
@@ -99,16 +102,12 @@ const SkillsComponent = () => {
             title="Database"
             items={[
               {
-                name: "Firebase",
-                icon: <SiFirebase className="text-yellow-400" />,
-              },
-              {
                 name: "MongoDB",
                 icon: <SiMongodb className="text-green-600" />,
               },
               {
                 name: "PostgreSQL",
-                icon: <SiMongodb className="text-green-600" />,
+                icon: <SiPostgresql className="text-blue-400" />,
               },
             ]}
           />

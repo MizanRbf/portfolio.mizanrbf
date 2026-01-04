@@ -82,17 +82,14 @@ const Contact = () => {
                 <IoHome size={35} />
                 <p className="text-xl"> Rajshahi, Bangladesh</p>
               </div>
+
               <div className="flex items-center text-white gap-1 mb-3">
-                <FaPhoneSquare size={35} />
+                <FaWhatsappSquare size={35} />
                 <p className="text-xl">+880-1319687088</p>
               </div>
               <div className="flex items-center text-white gap-1 mb-3">
-                <FaWhatsappSquare size={35} />
-                <p className="text-xl">+880-1609583916</p>
-              </div>
-              <div className="flex items-center text-white gap-1 mb-3">
                 <IoMdMail size={35} />
-                <p className="text-xl">mizanrbf@gmail.com</p>
+                <p className="text-xl">hmmizanrbf@gmail.com</p>
               </div>
 
               {/* Social Icons */}
@@ -119,7 +116,7 @@ const Contact = () => {
                 </a>
                 <a
                   className="hover:text-primary"
-                  href="https://wa.me/8801609583916"
+                  href="https://wa.me/8801319687088"
                 >
                   <FaWhatsappSquare />
                 </a>
