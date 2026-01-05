@@ -15,7 +15,7 @@ const Footer = () => {
           <Link
             to={"https://youtube.com/@learnwithmizanrbf?si=JasavjKV6uoWz-Pw"}
           >
-            <img className="w-35" src="/src/assets/logo2.png" alt="" />
+            <img className="w-35" src="/assets/logo2.png" alt="" />
           </Link>
         </div>
         {/* Social Icons */}

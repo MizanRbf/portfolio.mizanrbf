@@ -2,10 +2,10 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import ProSlider1 from "../../../../src/assets/Pro3,Slid1.png";
-import ProSlider2 from "../../../../src/assets/Pro3,Slid2.png";
-import ProSlider3 from "../../../../src/assets/Pro3,Slid3.png";
-import ProSlider4 from "../../../../src/assets/Pro3,Slid4.png";
+import ProSlider1 from "../../../../public/assets/Pro3,Slid1.png";
+import ProSlider2 from "../../../../public/assets/Pro3,Slid2.png";
+import ProSlider3 from "../../../../public/assets/Pro3,Slid3.png";
+import ProSlider4 from "../../../../public/assets/Pro3,Slid4.png";
 
 const Slider3 = () => {
   return (

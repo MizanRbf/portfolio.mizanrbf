@@ -116,7 +116,7 @@ const Banner = () => {
           <div className="p-1">
             <img
               className=" w-80 md:w-80   lg:w-100"
-              src="/src/assets/mizan.png"
+              src="/assets/mizan.png"
               alt=""
             />
           </div>

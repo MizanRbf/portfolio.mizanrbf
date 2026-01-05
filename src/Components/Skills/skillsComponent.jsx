@@ -51,6 +51,7 @@ const SkillsComponent = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Left Side */}
         <div>
+          {/* Languages */}
           <SkillSection
             title="Languages"
             items={[
@@ -66,7 +67,7 @@ const SkillsComponent = () => {
               { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
             ]}
           />
-
+          {/* Front-End Framework */}
           <SkillSection
             title="Front-End Framework/Library"
             items={[
@@ -77,7 +78,7 @@ const SkillsComponent = () => {
               },
             ]}
           />
-
+          {/* CSS Framework */}
           <SkillSection
             title="CSS Framework"
             items={[
@@ -87,7 +88,7 @@ const SkillsComponent = () => {
               },
             ]}
           />
-
+          {/* Design tools */}
           <SkillSection
             title="Design Tools"
             items={[
