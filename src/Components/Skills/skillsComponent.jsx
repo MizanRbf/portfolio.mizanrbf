@@ -7,6 +7,7 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaGithub,
+  FaDatabase,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -65,6 +66,7 @@ const SkillsComponent = () => {
               },
               { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" /> },
               { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
+              { name: "SQL", icon: <FaDatabase className="text-white" /> },
             ]}
           />
           {/* Front-End Framework */}
