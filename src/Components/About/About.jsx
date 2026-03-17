@@ -39,9 +39,9 @@ const About = () => {
 
           {/* Image */}
           <Section2>
-            <div className="rounded-full  h-fit p-1 ring-1 ring-offset-1 ring-primary">
+            <div className="h-fit p-1 ring-1 ring-offset-1 ring-primary">
               <img
-                className="rounded-full w-70 md:w-80 lg:w-90"
+                className="w-70 md:w-80 lg:w-90"
                 src="/assets/about.jpg"
                 alt=""
               />
