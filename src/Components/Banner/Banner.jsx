@@ -47,17 +47,22 @@ const Banner = () => {
               <MdWavingHand size={30} className="text-primary" />
             </div>
             <h1 className="text-white mb-2 text-3xl md:text-4xl lg:text-6xl font-bold">
-              I'm Mizanur Rahman
+              I'm Mizan Al Muhammadi
             </h1>
             <p className="text-[#c4c4c4] text-sm md:text-2xl lg:text-3xl font-bold mt-8 mb-2">
-              A passionate junior{" "}
+              A passionate{" "}
               <span style={{ color: "green", fontWeight: "bold" }}>
                 <Typewriter
                   words={[
-                    "MERN Stack Developer",
                     "Front-End Developer",
+                    "Back-End Developer",
                     "React Developer",
+                    "Next.js Developer",
+                    "React Native Developer",
+                    "App Developer",
+                    "Web Developer",
                     "Full Stack Developer",
+                    "MERN Stack Developer",
                   ]}
                   loop={5}
                   cursor
@@ -68,8 +73,9 @@ const Banner = () => {
                 />
               </span>
             </p>
-            <p className="bg-white text-secondary text-[10px] md:text-sm font-medium px-2 rounded-full inline-block text-shadow-lg ">
-              who loves building fast, responsive, and scalable web applications
+            <p className="bg-white text-secondary text-[10px] md:text-sm  font-medium px-2 rounded-full inline-block text-shadow-lg ">
+              who loves building fast, responsive & scalable web applications &
+              apps
             </p>
             {/* Social Icons */}
             <div className="flex gap-3 text-4xl mb-8 mt-10 md:mt-14 text-white">
@@ -80,10 +86,7 @@ const Banner = () => {
                 <FaGithub />
               </a>
 
-              <a
-                className="hover:text-primary"
-                href="https://www.linkedin.com/in/mizanrbf/"
-              >
+              <a className="hover:text-primary" href="">
                 <FaLinkedin />
               </a>
 

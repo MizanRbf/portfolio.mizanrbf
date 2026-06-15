@@ -29,7 +29,7 @@ const About = () => {
     <div id="about" className="bg-[#141414] px-4">
       <div className="text-center  pb-30 pt-30  max-w-[1500px] mx-auto">
         <h1 className="text-2xl md:text-5xl font-bold mb-10 text-white border-6 border-primary px-6 py-2 inline-block border-t-0 border-r-0">
-          👤 About <span className="text-primary">Me</span>
+          📇 About <span className="text-primary">Me</span>
         </h1>
         <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-10 px-2 md:px-6">
           {/* Content */}

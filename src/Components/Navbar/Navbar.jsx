@@ -33,11 +33,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img className="w-14" src="/assets/logo2.png" alt="" />
-            <p className="text-4xl font-bold text-primary">
-              Miza
-              <span className="text-white">n</span>
-              Rbf
-            </p>
+            <p className="text-4xl font-bold text-primary">MBBL</p>
           </div>
         </div>
 

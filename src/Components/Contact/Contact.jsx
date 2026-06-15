@@ -44,7 +44,7 @@ const Contact = () => {
         "service_1tl7k8c",
         "template_88eueta",
         form.current,
-        "eE11Jr1RKLDjHi_0W"
+        "eE11Jr1RKLDjHi_0W",
       )
       .then(
         () => {
@@ -57,7 +57,7 @@ const Contact = () => {
         },
         (error) => {
           alert("Failed to send. Error: " + error.text);
-        }
+        },
       );
   };
   return (
@@ -65,8 +65,8 @@ const Contact = () => {
       <div className="max-w-[1500px] mx-auto">
         {/* Title */}
         <div className="text-center mb-15">
-          <h1 className="text-2xl md:text-4xl font-bold mb-10 border-6 border-primary px-6 py-2 inline-block border-t-0 border-r-0 text-white">
-            📬 Contact <span className="text-primary">Me</span>
+          <h1 className="text-2xl md:text-4xl font-bold mb-10 border-6 border-primary px-6 py-2 inline-block border-t-0 border-l-0 text-white">
+            <span className="text-primary"> 💬 Contact</span> Me
           </h1>
         </div>
         {/* Contact */}

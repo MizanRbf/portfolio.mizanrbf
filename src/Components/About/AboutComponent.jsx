@@ -3,7 +3,8 @@ const AboutComponent = () => {
     <section className="  text-white">
       <div className="max-w-4xl mx-auto md:pl-4 text-justify space-y-5 text-sm lg:text-base leading-relaxed">
         <p className="text-base leading-relaxed mb-4">
-          I'm <span className="font-semibold text-primary">Mizanur Rahman</span>
+          I'm{" "}
+          <span className="font-semibold text-primary">Mizan Al Muhammadi</span>
           , a Junior MERN Stack Developer and a student of Arabic Language and
           Literature at the University of Rajshahi. My programming journey began
           when I realized I was wasting time and wanted to build skills for the

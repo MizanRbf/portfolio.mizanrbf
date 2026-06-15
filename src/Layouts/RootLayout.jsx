@@ -9,6 +9,7 @@ import Contact from "../Components/Contact/Contact";
 import Banner from "../Components/Banner/Banner";
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
+import Apps from "../Components/Apps/Apps";
 
 const RootLayout = () => {
   return (
@@ -22,7 +23,8 @@ const RootLayout = () => {
         <Education></Education>
         <Skills></Skills>
         <Project></Project>
-        <Contact>`</Contact>
+        <Apps />
+        <Contact></Contact>
       </main>
       <footer>
         <Footer></Footer>

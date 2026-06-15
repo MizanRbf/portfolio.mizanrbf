@@ -14,7 +14,7 @@ const Education = () => {
 
         {/* Title */}
         <h1 className="relative text-2xl md:text-4xl font-bold mb-10 text-white border-6 border-primary px-6 py-2 inline-block border-t-0 border-l-0">
-          🎓 <span className="text-primary">Education</span> and Courses
+          📚 <span className="text-primary">Education</span> and Courses
         </h1>
 
         {/* Content */}
