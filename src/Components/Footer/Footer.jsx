@@ -52,8 +52,8 @@ const Footer = () => {
 
         {/* Copy Right */}
         <div class="text-[#6b6b6b] text-center text-sm">
-          &copy; 2025 All rights reserved by{" "}
-          <span class="font-semibold text-white">Mizanur Rahman</span>.
+          &copy; 2026 All rights reserved by{" "}
+          <span class="font-semibold text-white">Mizan Al Muhammadi</span>.
         </div>
       </div>
     </div>

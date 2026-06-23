@@ -59,6 +59,9 @@ const Navbar = () => {
               <a href="#projects">Projects</a>
             </li>
             <li className="hover:text-primary">
+              <a href="#apps">Apps</a>
+            </li>
+            <li className="hover:text-primary">
               <a href="#contact">Contact Me</a>
             </li>
           </ul>
@@ -134,6 +137,15 @@ const Navbar = () => {
                 onClick={() => setOpen(false)}
               >
                 <button className="w-full text-left">Projects</button>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#apps"
+                className="w-full text-left cursor-pointer"
+                onClick={() => setOpen(false)}
+              >
+                <button className="w-full text-left">Apps</button>
               </a>
             </li>
             <li>
